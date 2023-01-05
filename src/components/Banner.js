@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react-hooks/exhaustive-deps */
 
-import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { TypeAnimation } from 'react-type-animation';
 
@@ -81,7 +80,7 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <div className="header">
-                      <img id="optionalstuff1" src={headerImg} alt="Header-Img"/>
+                    <img id="optionalstuff1" src={headerImg} alt="Header-Img"/>
                   </div>
                 </div>
               }
