@@ -3,18 +3,18 @@ import { ProjectCard } from "./ProjectCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import CoverC1 from "../assets/img/projects/inprogress.png";
-import designC1 from "../assets/img/projects/inprogress.png";
-import CoverC2 from "../assets/img/projects/inprogress.png";
-import designC2 from "../assets/img/projects/inprogress.png";
+import CoverC1 from "../assets/img/projects/convo-care-s1.png";
+import designC1 from "../assets/img/projects/convo-care-s2.png";
+import CoverC2 from "../assets/img/projects/cert-web-dev-s1.png";
+import designC2 from "../assets/img/projects/cert-web-dev-s2.png";
 import CoverC3 from "../assets/img/projects/prj-web-portfolio.png";
 import designC3 from "../assets/img/projects/inprogress.png";
-import CoverC4 from "../assets/img/projects/inprogress.png";
-import designC4 from "../assets/img/projects/inprogress.png";
+import CoverC4 from "../assets/img/projects/cert-game-designer-s1.png";
+import designC4 from "../assets/img/projects/cert-game-designer-s2.png";
 import CoverC5 from "../assets/img/projects/cert-web-security-s1.png";
 import designC5 from "../assets/img/projects/inprogress.png";
-import CoverC6 from "../assets/img/projects/inprogress.png";
-import designC6 from "../assets/img/projects/inprogress.png";
+import CoverC6 from "../assets/img/projects/cert-python-bootcamp-s1.png";
+import designC6 from "../assets/img/projects/cert-python-bootcamp-s2.png";
 
 import CoverP1 from "../assets/img/projects/mlpy.png";
 import designP1 from "../assets/img/projects/mlpycourse1.png";
@@ -55,6 +55,8 @@ import CoverE8 from "../assets/img/projects/cert-blender3d.png";
 import designE8 from "../assets/img/projects/cert-blender3d.png";
 import CoverE9 from "../assets/img/projects/cert-complete-iot.png";
 import designE9 from "../assets/img/projects/cert-complete-iot.png";
+import CoverE10 from "../assets/img/projects/home-automation-s1.png";
+import designE10 from "../assets/img/projects/home-automation-s2.png";
 
 import CoverS1 from "../assets/img/projects/intro-cybersecurity.png";
 import designS1 from "../assets/img/projects/intro-cybersecuritycourse1.png";
@@ -111,6 +113,13 @@ export const Projects = () => {
       imgUrl: CoverC5,
       Car1: designC5,
       hrefURL: "https://www.udemy.com/course/web-security-and-bug-bounty-learn-penetration-testing/learn/lecture/27166340?start=0#content",
+    },
+    {
+      title: "Unity Game Designer",
+      description: "December'22~Present",
+      imgUrl: CoverC4,
+      Car1: designC4,
+      hrefURL: "",
     },
     {
       title: "Web Portfolio",
@@ -250,6 +259,13 @@ export const Projects = () => {
       imgUrl: CoverE9,
       Car1: designE9,
       hrefURL: "https://www.udemy.com/certificate/UC-0b5f404f-5fe5-41f3-b0e5-387ae9762808/",
+    },
+    {
+      title: "Home Automation",
+      description: "April'18~January'19",
+      imgUrl: CoverE10,
+      Car1: designE10,
+      hrefURL: "https://github.com/AlanP13/Arduino-Home-Automation",
     },
     {
       title: "Adobe Photoshop",
