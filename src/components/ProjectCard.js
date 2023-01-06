@@ -19,7 +19,7 @@ export const ProjectCard = ({
   return (
 
     <>
-      <Col size={12} sm={6} md={4}>
+      <Col size={12} sm={6} md={3}>
         <div onClick={handleShow} className="proj-imgbx" >
           <img src={imgUrl} alt='project' />
           <div className="proj-txtx">

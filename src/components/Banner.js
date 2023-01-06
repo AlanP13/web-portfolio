@@ -13,6 +13,7 @@ import hobbieIcon2 from '../assets/img/hobbie2.png';
 import hobbieIcon3 from '../assets/img/hobbie3.png';
 import hobbieIcon4 from '../assets/img/hobbie4.png';
 import hobbieIcon5 from '../assets/img/hobbie5.png';
+import hobbieIcon6 from '../assets/img/hobbie6.png';
 
 export const Banner = () => {
   return (
@@ -22,10 +23,7 @@ export const Banner = () => {
           <Col xs={15} md={10} xl={7}>
           <TrackVisibility partialVisibility once>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-          
-                <span className="tagline">Welcome</span>
-          
+              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>          
                 <h1>{`Hello! I'm Alan,`}</h1>
                 <TypeAnimation
                   sequence={[
@@ -66,11 +64,11 @@ export const Banner = () => {
                 <h2>Hobbies</h2>
                 <div className="hobbie-icon">
                 <a><img src={hobbieIcon1} alt="" /></a>
-                <a><img src={hobbieIcon2} alt="" /></a>
                 <a><img src={hobbieIcon3} alt="" /></a>
+                <a><img src={hobbieIcon6} alt="" /></a>
                 <a><img src={hobbieIcon4} alt="" /></a>
+                <a><img src={hobbieIcon2} alt="" /></a>
                 <a><img src={hobbieIcon5} alt="" /></a>
-          
               </div>
               </div>}
             </TrackVisibility>

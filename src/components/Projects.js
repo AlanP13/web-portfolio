@@ -101,6 +101,27 @@ AOS.init();
 export const Projects = () => {
   const current = [
     {
+      title: "Web Portfolio",
+      description: "October'22~Present",
+      imgUrl: CoverC3,
+      Car1: designC3,
+      hrefURL: "https://github.com/AlanP13/web-portfolio",
+    },    
+    {
+      title: "Convo Care",
+      description: "August'22~Present",
+      imgUrl: CoverC1,
+      Car1: designC1,
+      hrefURL: "",
+    },
+    {
+      title: "Web Development Bootcamp",
+      description: "October'22~Present",
+      imgUrl: CoverC2,
+      Car1: designC2,
+      hrefURL: "https://github.com/AlanP13/Webpage",
+    },
+    {
       title: "Python Bootcamp",
       description: "December'22~Present",
       imgUrl: CoverC6,
@@ -121,27 +142,7 @@ export const Projects = () => {
       Car1: designC4,
       hrefURL: "",
     },
-    {
-      title: "Web Portfolio",
-      description: "October'22~Present",
-      imgUrl: CoverC3,
-      Car1: designC3,
-      hrefURL: "https://github.com/AlanP13/web-portfolio",
-    },
-    {
-      title: "Web Development Bootcamp",
-      description: "October'22~Present",
-      imgUrl: CoverC2,
-      Car1: designC2,
-      hrefURL: "https://github.com/AlanP13/Webpage",
-    },
-    {
-      title: "Convo Care",
-      description: "August'22~Present",
-      imgUrl: CoverC1,
-      Car1: designC1,
-      hrefURL: "",
-    },
+
   ];
 
   const programming = [
@@ -165,6 +166,13 @@ export const Projects = () => {
       imgUrl: CoverP3,
       Car1: designP3,
       hrefURL: "https://github.com/AlanP13/CS331-Data-Structures-and-Algorithms",
+    },
+    {
+      title: "Operating Systems: XV6",
+      description: "August'21~December'21",
+      imgUrl: CoverP9,
+      Car1: designP9,
+      hrefURL: "https://github.com/AlanP13/CS450-Operating-Systems/tree/main/Labs",
     },
     {
       title: "Git & Github Masterclass",
@@ -208,13 +216,7 @@ export const Projects = () => {
       Car1: designP8,
       hrefURL: "https://www.udemy.com/certificate/UC-f50fb45d-cce3-4d5c-ab4f-0dc957c30f3a/",
     },
-    {
-      title: "Operating Systems: XV6",
-      description: "August'21~December'21",
-      imgUrl: CoverP9,
-      Car1: designP9,
-      hrefURL: "https://github.com/AlanP13/CS450-Operating-Systems/tree/main/Labs",
-    },
+
   ];
 
   const designs = [ 
@@ -254,19 +256,20 @@ export const Projects = () => {
       hrefURL: "https://github.com/AlanP13/ECE242-Digital-Computer-Computing",
     },
     {
-      title: "IoT Build Guide",
-      description: "Complete Guide to Build IOT Things from Scratch to Market",
-      imgUrl: CoverE9,
-      Car1: designE9,
-      hrefURL: "https://www.udemy.com/certificate/UC-0b5f404f-5fe5-41f3-b0e5-387ae9762808/",
-    },
-    {
       title: "Home Automation",
       description: "April'18~January'19",
       imgUrl: CoverE10,
       Car1: designE10,
       hrefURL: "https://github.com/AlanP13/Arduino-Home-Automation",
     },
+    {
+      title: "IoT Build Guide",
+      description: "Complete Guide to Build IOT Things from Scratch to Market",
+      imgUrl: CoverE9,
+      Car1: designE9,
+      hrefURL: "https://www.udemy.com/certificate/UC-0b5f404f-5fe5-41f3-b0e5-387ae9762808/",
+    },
+
     {
       title: "Adobe Photoshop",
       description: "Ultimate Adobe Photoshop Training: From Beginner to Pro",
@@ -350,13 +353,8 @@ export const Projects = () => {
   ];
 
   const development = [   
+    
     {
-      title: "Responsive Website Development",
-      description: "October'22~December'22",
-      imgUrl: CoverD10,
-      Car1: designD10,
-      hrefURL: "https://github.com/AlanP13/Webpage",
-    },{
       title: "Wilson Golf Solution",
       description: "January'22~May'22",
       imgUrl: CoverD9,
@@ -369,6 +367,13 @@ export const Projects = () => {
       imgUrl: CoverD8,
       Car1: designD8,
       hrefURL: "https://github.com/AlanP13/IPRO497-AP-Digital-Development",
+    },
+    {
+      title: "Responsive Website Development",
+      description: "October'22~December'22",
+      imgUrl: CoverD10,
+      Car1: designD10,
+      hrefURL: "https://github.com/AlanP13/Webpage",
     },
     {
       title: "Unity Game Development",
@@ -431,8 +436,8 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
             <div>
-              <h2>Projects</h2>
-              <p>Below are the projects I have worked on either personally or collaborated in teams. Click on the slides to view the repository.</p>
+              <h2>Projects & Certifications</h2>
+              <p>Below are the projects I have worked on either personally or collaborated in teams. Dobule click on the slides to view the repository or the certificate.</p>
               <Tab.Container id="projects-tabs" defaultActiveKey="first">
                 <Nav
                   variant="pills"
@@ -508,20 +513,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-
-      <div class="custom-shape-divider-bottom-1666449565">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-            class="shape-fill"
-          ></path>
-        </svg>
-      </div>
     </section>
   );
 };
