@@ -27,23 +27,17 @@ export const Banner = () => {
                 <h1>{`Hello! I'm Alan,`}</h1>
                 <TypeAnimation
                   sequence={[
-                    'A Programmer', 
+                    'A Cybersecurity Engineer',
                     1000,
                     'A Full Stack Developer',
                     1000,
-                    'A Cybersecurity Engineer',
-                    1000, 
-                    'A Game Developer',
-                    1000,
                     'A Software Engineer', 
-                    1000,
-                    'A Web Developer', 
                     1000, 
+                    'A Programmer', 
+                    1000,
                     'A Computer Engineer', 
                     1000,
                     'A Software Developer', 
-                    1000,
-                    'A Network Engineer',
                     1000,
                     () => {
                       console.log('Done typing!'); // Place optional callbacks anywhere in the array
