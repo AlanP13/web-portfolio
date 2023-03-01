@@ -22,8 +22,8 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-                <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/18yNR_C_pi2Zavpq4PnRaI9Gns622Yasy/view?usp=sharing"><img src={resume} alt="" /></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alan-biju-palayil-37648199/"><img src={navIcon1} alt="" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1i5QR-MQVTp5l_P9D-2qT5RUoTy5USTJi/view?usp=sharing"><img src={resume} alt="" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alan-palayil/"><img src={navIcon1} alt="" /></a>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlanP13"><img src={navIcon2} alt="" /></a>
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/alan.palayil/"><img src={navIcon3} alt="" /></a> 
             </div>
