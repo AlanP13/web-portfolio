@@ -51,10 +51,10 @@ export const Banner = () => {
                 />
                 <h3>{`About Me`}</h3>
           
-                <p>My interest in electronics started at a very young age, my inquisitive mind helped me fix broken remote-controlled toys. In middle-school, while gaming, my dad challenged me to try and learn how the games were programmed and developed. I did not realize how that simple challenge would push my passion and goals into programming and software development. I started with JavaScript to develop a Pac-Man game and over time taught myself to code in other programming languages.</p>
-                <p>At Illinois Tech, I had the opportunity to work with other talented minds. Our collective skills to create a gesture-controlled Smart Mirror with face-recognition and IoT nodes, enabled us to win the third place at the ECE-Day Competition, Illinois Tech. I took this project further to research on the applications of Computer Vision and Information Security within the IoT field.</p>
-                <p>I look forward to begin my career and seek new skills, opportunities, share my knowledge and make great friendships.</p>
-          
+                <p>My passion for electronics and problem-solving started at a young age when I began repairing remote-controlled toys. In middle school, my curiosity led me to gaming, and a challenge from my father pushed me toward programming. What started as an attempt to understand how games were developed soon became a lifelong passion. I created a Pac-Man game using JavaScript and progressively expanded my expertise across multiple programming languages.</p>
+                <p>During my time at Illinois Institute of Technology, I collaborated with talented peers to develop a gesture-controlled Smart Mirror with face recognition and IoT capabilities, which earned us third place in the ECE-Day Competition. This project deepened my interest in Computer Vision, IoT, and Cybersecurity, leading me to further explore the intersection of these fields.</p>
+                <p>Now, as an Associate Application Development Analyst at Genworth, I am focused on developing software solutions, automating processes, and optimizing data workflows. With a strong foundation in software development, cybersecurity, and data science, I am eager to continue learning, sharing knowledge, and building meaningful professional relationships.</p>
+                <p>Feel free to connect with me!</p>
                 <h2>Hobbies</h2>
                 <div className="hobbie-icon">
                 <a><img src={hobbieIcon1} alt="" /></a>
